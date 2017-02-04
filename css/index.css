@@ -3,7 +3,7 @@ body {
 }
 
 #background {
-  background: url('../images/IMG_7401.JPG') no-repeat 50% 50% fixed;
+  background: url('../images/background-viewport.png') no-repeat 50% 50% fixed;
   background-size: cover;
 
 }
