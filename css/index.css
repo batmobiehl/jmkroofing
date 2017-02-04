@@ -19,3 +19,12 @@ body {
 #background > .row:last-child {
   margin-bottom: 15%;
 }
+
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.img-responsive {
+	width: 100%;
+}
