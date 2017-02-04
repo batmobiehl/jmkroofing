@@ -1,0 +1,21 @@
+body {
+
+}
+
+#background {
+  background: url('../images/IMG_7401.JPG') no-repeat 50% 50% fixed;
+  background-size: cover;
+
+}
+
+#main {
+  margin-top: 15%;
+}
+
+#background > .row:first-child {
+  margin-bottom: 10%;
+}
+
+#background > .row:last-child {
+  margin-bottom: 15%;
+}
