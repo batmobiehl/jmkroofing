@@ -9,13 +9,14 @@
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
 
 <body>
   <header>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <!-- add in logo here instead of just plain text -->
@@ -26,11 +27,13 @@
 
   </header>
   <!-- VIEWPORT -->
-  <div class="container-fluid">
+  <div id="background" class="container-fluid">
     <div class="row" align="center">
       <!-- TITLE -->
       <!-- add in logo image here -->
-      <h1>JMK Roofing <br /><small>Local, Trusted, Quality Roofing.</small></h1>
+      <div id="main">
+        <h1>JMK Roofing <br /><small>Local, Trusted, Quality Roofing.</small></h1>
+      </div>
       <!-- Call to action -->
       <!-- possibly change this from button to normal text with phone number -->
       <button type="button" name="button" class="btn btn-default">CALL NOW</button>
@@ -39,22 +42,22 @@
     <!-- NAVBAR -->
     <div class="row">
       <div class="col-md-3">
-        <h3 align="center"><a href="#">SERVICES</a></h3>
+        <h3 align="center"><a href="#services">SERVICES</a></h3>
       </div>
       <div class="col-md-3">
-        <h3 align="center"><a href="#">PROJECTS</a></h3>
+        <h3 align="center"><a href="#projects">PROJECTS</a></h3>
       </div>
       <div class="col-md-3">
-        <h3 align="center"><a href="#">ABOUT</a></h3>
+        <h3 align="center"><a href="#about">ABOUT</a></h3>
       </div>
       <div class="col-md-3">
-        <h3 align="center"><a href="#">CONTACT</a></h3>
+        <h3 align="center"><a href="#contact">CONTACT</a></h3>
       </div>
     </div>
 
   </div>
   <!-- SERVICES -->
-  <div class="container">
+  <div id="services" class="container">
     <div class="row">
       <h1 align="center">SERVICES</h1>
       <div class="col-md-4">
@@ -111,8 +114,8 @@
   </div>
 
   <!-- PROJECTS -->
-  <div class="container-fluid">
-
+  <div id="projects" class="container-fluid">
+    <h1 align="center">PROJECTS</h1>
 
   </div>
 
@@ -137,7 +140,7 @@
   </div>
 
   <!-- ABOUT US -->
-  <div class="container">
+  <div id="about" class="container">
     <div class="row">
       <h1 align="center">ABOUT US</h1>
       <div class="col-md-4">
@@ -155,7 +158,7 @@
   </div>
 
   <!-- CONTACT US -->
-  <div class="container">
+  <div id="contact" class="container">
     <div class="row">
       <h1 align="center">CONTACT US</h1>
       <div class="col-md-offset-2 col-md-8 form-group">
