@@ -25,6 +25,21 @@ body {
 	margin: 0 !important;
 }
 
-.img-responsive {
+.img-cover {
+	background-color: #000000;
+}
+
+.img-cover img {
+	opacity: 0.5;
+}
+
+.img-cover:hover img {
+	opacity: 1;
+}
+/*.img-responsive {
 	width: 100%;
 }
+
+.img-responsive:hover {
+	opacity: 0.8;
+}*/
